@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/EvilStarr/autoScale' 
+                git branch: 'main', url: 'https://github.com/Tigers83/armtest01.git' 
             }
         }
         stage('Initialize Terraform') {
